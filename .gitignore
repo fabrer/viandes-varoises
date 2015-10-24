@@ -1,0 +1,4 @@
+# Ignore IDE files
+/nbproject/
+.project
+.DS_Store
