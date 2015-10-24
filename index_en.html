@@ -9,6 +9,9 @@
         <link rel="stylesheet" href="css/stuck.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/touchTouch.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        
         <!--[if lt IE 9]>
          <div style=' clear: both; text-align:center; position: relative;'>
            <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -36,9 +39,10 @@
                         <div class="grid_12">
                             <h1>
                                 <a href="/">
-                                    <img src="images/logo.png" alt="Viandes varoises - Butchery, delicatessen & caterer">
+                                    <img src="images/logo-viandes-varoises.png" alt="Viandes varoises - Butchery, delicatessen & caterer" width="50" height="50" />
                                 </a>
-                            </h1>  
+                            </h1>
+                            <p id="baseline">Viandes varoises - Butchery, delicatessen & caterer</p>
                             <div class="navigation">
                                 <nav>
                                     <ul class="sf-menu">
@@ -61,10 +65,24 @@
         <section class="content">         
             <div class="container">
                 <div class="row">
+
+                    <div class="grid_12 hidden_xs">
+                        <div class="homepage-slideshow">
+                            <div>
+                                <img src="images/interieur-viandes-varoises.jpg" class="img-responsive" alt="Interieur">
+                            </div>
+                            <div>
+                                <img src="images/boucherie-viandes-varoises.jpg" class="img-responsive" alt="Boucherie">
+                            </div>
+                            <div>
+                                <img src="images/charcuterie-viandes-varoises.jpg" class="img-responsive" alt="Charcuterie">
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="grid_4">
                         <div class="banner">
                             <div class="gall_block">
-                                <img src="images/cote-de-boeuf.jpg" alt="">
                                 <div class="bann_capt ">
                                     <div class="maxheight">
                                         <img src="images/boucherie.png" alt="">
@@ -83,14 +101,12 @@
                                         <div class="bann_title">Delicatessen</div>
                                     </div>
                                 </div>
-                                <img src="images/charcuterie-porc.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="grid_4">
                         <div class="banner ">
                             <div class="gall_block">
-                                <img src="images/plat-cuisine.jpg" alt="">
                                 <div class="bann_capt  bn__2">
                                     <div class="maxheight">
                                         <img src="images/traiteur.png" alt="">
@@ -196,7 +212,9 @@
         </footer>
         
     <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script> 
     <script src="js/superfish.js"></script>
     <script src="js/jquery.equalheights.js"></script>

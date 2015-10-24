@@ -72,7 +72,11 @@ img {
 
 /****Heads****/
 
-
+#baseline {
+    color: #732825;
+    float: left;
+    margin: 10px 0 0 10px;
+}
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     color: #535151;
@@ -883,7 +887,9 @@ header h1 a img {
 }
 
 @media only screen and (max-width: 767px) {
-  
+    .hidden_xs {
+        display: none;
+    }
     .banner>img {
         width: 100%;
     }
@@ -965,8 +971,6 @@ header h1 a img {
 
 
 @media only screen and (max-width: 479px) {
-    
-
     .tmSelect.auto, .tmSelect2.auto {
         width: 180px;
     } 
